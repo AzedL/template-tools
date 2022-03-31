@@ -5,6 +5,10 @@
   "keywords": [],
   "author": "Azed",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/AzedL/{{name}}.git"
+  },
   "bin": {
     "{{name}}": "./src/index.js"
   },
