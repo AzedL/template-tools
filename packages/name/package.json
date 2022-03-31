@@ -1,0 +1,14 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.0",
+  "description": "{{description}}",
+  "keywords": [],
+  "author": "Azed",
+  "license": "MIT",
+  "bin": {
+    "{{name}}": "./src/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

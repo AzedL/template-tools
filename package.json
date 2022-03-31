@@ -1,0 +1,19 @@
+{
+  "name": "{{name}}",
+  "author": "Azed",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "azg": "az-git {{name}} {{description}}",
+    "pub": "lerna publish",
+    "pub:skip": "lerna publish --skip-git",
+    "pub:force": "lerna publish --force-publish"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "az-git": "^1.0.0"
+  }
+}
