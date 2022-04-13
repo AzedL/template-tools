@@ -13,7 +13,6 @@
     "pub:force": "lerna publish --force-publish"
   },
   "devDependencies": {
-    "lerna": "^4.0.0",
-    "az-git": "^1.0.2"
+    "lerna": "^4.0.0"
   }
 }
